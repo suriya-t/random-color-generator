@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Color Picker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="author" content="Suriya">
+    <meta name="description" content="This program is created to copy the color code for any user desired color.">
+    <meta name="canonical" content="">
+
+    <link type="text/css" href="css.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+  </head>
+
+  <body>
+    <section id="main-section">
+
+      <div class="wrapper">
+        <p class="color-text">Hex Code : <input id="color_text" value="#e0e0e0" readonly</p>
+        <input id="color" type="color" value="#e0e0e0" onchange="colorChange()">
+        <div class="copy-div" onclick="copy()"><span class="material-icons">content_copy</span></div>
+      </div>
+
+    </section>
+    
+
+    <script type="text/javascript" src="js.js"></script>
+  </body>
+</html>
