@@ -1,0 +1,66 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#main-section{
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e0e0e0;
+}
+
+.wrapper{
+  border: 1px solid #303030;
+  background-color: #e0e0e0;
+  padding: 1.5rem 3rem;
+  font-size: 1.5rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+#color_text{
+  text-transform: uppercase;
+  border: none;
+  background-color: transparent;
+  font-size: inherit;
+  width: 110px;
+  outline:none;
+  cursor: text;
+}
+
+#color{
+  display: block;
+  height: 2.8rem;
+  margin: 0.5rem auto;
+  border:none;
+  background-color: #e0e0e0;
+}
+
+.copy-div{
+  width: 100%;
+  cursor: pointer;
+  text-align:center;
+  border-radius: 0px;
+  background: #e0e0e0;
+  box-shadow:  8px 8px 16px #bebebe,
+              -8px -8px 16px #ffffff;
+  margin: 10px 0;
+  padding: 10px 0 5px 0;
+}
+.copy-div:hover{
+  background-color: #a0f282;
+}
+.copy-div:active{
+  background-color: #66c544;
+}
+.material-icons{
+  width: 100%;
+  vertical-align: center;
+}
