@@ -8,7 +8,7 @@ body{
   font-family: 'Signika Negative', 'Arial Narrow', Arial, sans-serif;
 }
 
-#main-section{
+#main_section{
   height: 100vh;
   display: flex;
   align-items: center;
