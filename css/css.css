@@ -18,7 +18,7 @@ body{
 
 .wrapper{
   background-color: #e0e0e0;
-  padding: 1.5rem 3rem;
+  padding: 1.3rem 2rem;
   font-size: 1.5rem;
   overflow: hidden;
   text-align: center;
@@ -32,38 +32,43 @@ body{
   border: none;
   background-color: transparent;
   font-size: inherit;
-  width: 110px;
+  width: 100px;
   outline:none;
   cursor: text;
 }
 
 #color_input{
-  display: block;
   height: 2.8rem;
   margin: 0.5rem auto;
   border:none;
   background-color: #e0e0e0;
   cursor:pointer;
+  vertical-align: middle;
 }
 
-.copy-div{
-  width: 100%;
+.copy-btn, .random-btn{
+  float:left;
+  height: 3rem;
+  width: 42%;
   cursor: pointer;
   text-align:center;
+  border:none;
   border-radius: 0px;
   background: #e0e0e0;
   box-shadow:  8px 8px 16px #bebebe,
               -8px -8px 16px #ffffff;
-  margin: 10px 0;
-  padding: 10px 0 5px 0;
+  margin: .5rem .5rem;
+  padding: auto;
+  overflow: hidden;
+  font-size: 1rem;
 }
-.copy-div:hover{
+.copy-btn:hover, .random-btn:hover{
   background-color: #a0f282;
 }
-.copy-div:active{
+.copy-btn:active, .random-btn:active{
   background-color: #66c544;
 }
 .material-icons{
-  width: 100%;
-  vertical-align: center;
+  width:100%;
+  vertical-align: middle;
 }
