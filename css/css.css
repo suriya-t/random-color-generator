@@ -58,7 +58,6 @@ body{
   box-shadow:  8px 8px 16px #bebebe,
               -8px -8px 16px #ffffff;
   margin: .5rem .5rem;
-  padding: auto;
   overflow: hidden;
   font-size: 1rem;
 }
