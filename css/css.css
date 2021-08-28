@@ -44,6 +44,7 @@ body{
   background-color: #e0e0e0;
   cursor:pointer;
   vertical-align: middle;
+  outline: none;
 }
 
 .copy-btn, .random-btn{
