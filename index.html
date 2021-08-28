@@ -25,9 +25,10 @@
           <input id="color_text" value="#e0e0e0" readonly>
           <br>
           Change Color
+        <input id="color_input" type="color" value="#e0e0e0" title="Change Color" onchange="colorChange()">
         </p>
-        <input id="color_input" type="color" value="#e0e0e0" onchange="colorChange()">
-        <div class="copy-div" onclick="copyText()"><span class="material-icons">content_copy</span></div>
+        <button class="random-btn" title="Random Color" onclick="randomColor()">Random</button>
+        <button class="copy-btn" title="Copy Code" onclick="copyText()"><span class="material-icons">content_copy</span></button>
       </div>
 
     </section>
